@@ -13,6 +13,10 @@
 		3436E5FC2528BC5100ACC7B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3436E5FB2528BC5100ACC7B9 /* Assets.xcassets */; };
 		3436E5FF2528BC5100ACC7B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3436E5FE2528BC5100ACC7B9 /* Preview Assets.xcassets */; };
 		3436E6022528BC5100ACC7B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3436E6002528BC5100ACC7B9 /* LaunchScreen.storyboard */; };
+		3436E60B2528C09B00ACC7B9 /* ActivityItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3436E60A2528C09B00ACC7B9 /* ActivityItem.swift */; };
+		3436E60E2528C14900ACC7B9 /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3436E60D2528C14900ACC7B9 /* Activities.swift */; };
+		3436E6192528C56700ACC7B9 /* ActivityItemAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3436E6182528C56700ACC7B9 /* ActivityItemAddView.swift */; };
+		3436E61D2528C9D100ACC7B9 /* ActivitiyItemListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3436E61C2528C9D100ACC7B9 /* ActivitiyItemListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3436E5FE2528BC5100ACC7B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3436E6012528BC5100ACC7B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3436E6032528BC5100ACC7B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3436E60A2528C09B00ACC7B9 /* ActivityItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityItem.swift; sourceTree = "<group>"; };
+		3436E60D2528C14900ACC7B9 /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		3436E6182528C56700ACC7B9 /* ActivityItemAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityItemAddView.swift; sourceTree = "<group>"; };
+		3436E61C2528C9D100ACC7B9 /* ActivitiyItemListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiyItemListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,12 @@
 			children = (
 				3436E5F52528BC4A00ACC7B9 /* AppDelegate.swift */,
 				3436E5F72528BC4A00ACC7B9 /* SceneDelegate.swift */,
-				3436E5F92528BC4A00ACC7B9 /* ContentView.swift */,
 				3436E5FB2528BC5100ACC7B9 /* Assets.xcassets */,
 				3436E6002528BC5100ACC7B9 /* LaunchScreen.storyboard */,
 				3436E6032528BC5100ACC7B9 /* Info.plist */,
 				3436E5FD2528BC5100ACC7B9 /* Preview Content */,
+				3436E6132528C2E400ACC7B9 /* Models */,
+				3436E6152528C2EF00ACC7B9 /* Views */,
 			);
 			path = "Day 47 Challenge";
 			sourceTree = "<group>";
@@ -73,6 +82,25 @@
 				3436E5FE2528BC5100ACC7B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3436E6132528C2E400ACC7B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3436E60A2528C09B00ACC7B9 /* ActivityItem.swift */,
+				3436E60D2528C14900ACC7B9 /* Activities.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3436E6152528C2EF00ACC7B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3436E5F92528BC4A00ACC7B9 /* ContentView.swift */,
+				3436E6182528C56700ACC7B9 /* ActivityItemAddView.swift */,
+				3436E61C2528C9D100ACC7B9 /* ActivitiyItemListItemView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +174,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3436E5F62528BC4A00ACC7B9 /* AppDelegate.swift in Sources */,
+				3436E60E2528C14900ACC7B9 /* Activities.swift in Sources */,
 				3436E5F82528BC4A00ACC7B9 /* SceneDelegate.swift in Sources */,
+				3436E61D2528C9D100ACC7B9 /* ActivitiyItemListItemView.swift in Sources */,
+				3436E60B2528C09B00ACC7B9 /* ActivityItem.swift in Sources */,
 				3436E5FA2528BC4A00ACC7B9 /* ContentView.swift in Sources */,
+				3436E6192528C56700ACC7B9 /* ActivityItemAddView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
